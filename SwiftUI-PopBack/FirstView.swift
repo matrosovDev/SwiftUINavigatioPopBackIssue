@@ -19,7 +19,7 @@ struct FirstView: View {
         NavigationView {
             ZStack {
                 Button(action: {
-                    self.createSimpleText()
+                    self.downloadImageFromURL()
                 }) {
                     Text("Next")
                         .fontWeight(.bold)
@@ -35,7 +35,7 @@ struct FirstView: View {
         }
     }
     
-    func createSimpleText() {
+    func downloadImageFromURL() {
         if let url = URL(string: "https://placebear.com/200/300") {
             simpleService.downloadImage(from: url) { (image) in
                 self.showSecondView = true
