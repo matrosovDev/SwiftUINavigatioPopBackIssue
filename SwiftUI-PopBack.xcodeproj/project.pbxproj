@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA586D8A248E7C02008D22B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA586D89248E7C02008D22B3 /* AppDelegate.swift */; };
+		FA586D8C248E7C02008D22B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA586D8B248E7C02008D22B3 /* SceneDelegate.swift */; };
+		FA586D8E248E7C02008D22B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA586D8D248E7C02008D22B3 /* ContentView.swift */; };
+		FA586D90248E7C07008D22B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA586D8F248E7C07008D22B3 /* Assets.xcassets */; };
+		FA586D93248E7C07008D22B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA586D92248E7C07008D22B3 /* Preview Assets.xcassets */; };
+		FA586D96248E7C07008D22B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA586D94248E7C07008D22B3 /* LaunchScreen.storyboard */; };
+		FA586DA1248E7C07008D22B3 /* SwiftUI_PopBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA586DA0248E7C07008D22B3 /* SwiftUI_PopBackTests.swift */; };
+		FA586DAC248E7C07008D22B3 /* SwiftUI_PopBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA586DAB248E7C07008D22B3 /* SwiftUI_PopBackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA586D9D248E7C07008D22B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA586D7E248E7C02008D22B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA586D85248E7C02008D22B3;
+			remoteInfo = "SwiftUI-PopBack";
+		};
+		FA586DA8248E7C07008D22B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA586D7E248E7C02008D22B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA586D85248E7C02008D22B3;
+			remoteInfo = "SwiftUI-PopBack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA586D86248E7C02008D22B3 /* SwiftUI-PopBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-PopBack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA586D89248E7C02008D22B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA586D8B248E7C02008D22B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA586D8D248E7C02008D22B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA586D8F248E7C07008D22B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA586D92248E7C07008D22B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA586D95248E7C07008D22B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA586D97248E7C07008D22B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA586D9C248E7C07008D22B3 /* SwiftUI-PopBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-PopBackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA586DA0248E7C07008D22B3 /* SwiftUI_PopBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PopBackTests.swift; sourceTree = "<group>"; };
+		FA586DA2248E7C07008D22B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA586DA7248E7C07008D22B3 /* SwiftUI-PopBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-PopBackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA586DAB248E7C07008D22B3 /* SwiftUI_PopBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PopBackUITests.swift; sourceTree = "<group>"; };
+		FA586DAD248E7C07008D22B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA586D83248E7C02008D22B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA586D99248E7C07008D22B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA586DA4248E7C07008D22B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA586D7D248E7C02008D22B3 = {
+			isa = PBXGroup;
+			children = (
+				FA586D88248E7C02008D22B3 /* SwiftUI-PopBack */,
+				FA586D9F248E7C07008D22B3 /* SwiftUI-PopBackTests */,
+				FA586DAA248E7C07008D22B3 /* SwiftUI-PopBackUITests */,
+				FA586D87248E7C02008D22B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA586D87248E7C02008D22B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA586D86248E7C02008D22B3 /* SwiftUI-PopBack.app */,
+				FA586D9C248E7C07008D22B3 /* SwiftUI-PopBackTests.xctest */,
+				FA586DA7248E7C07008D22B3 /* SwiftUI-PopBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA586D88248E7C02008D22B3 /* SwiftUI-PopBack */ = {
+			isa = PBXGroup;
+			children = (
+				FA586D89248E7C02008D22B3 /* AppDelegate.swift */,
+				FA586D8B248E7C02008D22B3 /* SceneDelegate.swift */,
+				FA586D8D248E7C02008D22B3 /* ContentView.swift */,
+				FA586D8F248E7C07008D22B3 /* Assets.xcassets */,
+				FA586D94248E7C07008D22B3 /* LaunchScreen.storyboard */,
+				FA586D97248E7C07008D22B3 /* Info.plist */,
+				FA586D91248E7C07008D22B3 /* Preview Content */,
+			);
+			path = "SwiftUI-PopBack";
+			sourceTree = "<group>";
+		};
+		FA586D91248E7C07008D22B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA586D92248E7C07008D22B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA586D9F248E7C07008D22B3 /* SwiftUI-PopBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA586DA0248E7C07008D22B3 /* SwiftUI_PopBackTests.swift */,
+				FA586DA2248E7C07008D22B3 /* Info.plist */,
+			);
+			path = "SwiftUI-PopBackTests";
+			sourceTree = "<group>";
+		};
+		FA586DAA248E7C07008D22B3 /* SwiftUI-PopBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA586DAB248E7C07008D22B3 /* SwiftUI_PopBackUITests.swift */,
+				FA586DAD248E7C07008D22B3 /* Info.plist */,
+			);
+			path = "SwiftUI-PopBackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA586D85248E7C02008D22B3 /* SwiftUI-PopBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA586DB0248E7C07008D22B3 /* Build configuration list for PBXNativeTarget "SwiftUI-PopBack" */;
+			buildPhases = (
+				FA586D82248E7C02008D22B3 /* Sources */,
+				FA586D83248E7C02008D22B3 /* Frameworks */,
+				FA586D84248E7C02008D22B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-PopBack";
+			productName = "SwiftUI-PopBack";
+			productReference = FA586D86248E7C02008D22B3 /* SwiftUI-PopBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA586D9B248E7C07008D22B3 /* SwiftUI-PopBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA586DB3248E7C07008D22B3 /* Build configuration list for PBXNativeTarget "SwiftUI-PopBackTests" */;
+			buildPhases = (
+				FA586D98248E7C07008D22B3 /* Sources */,
+				FA586D99248E7C07008D22B3 /* Frameworks */,
+				FA586D9A248E7C07008D22B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA586D9E248E7C07008D22B3 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-PopBackTests";
+			productName = "SwiftUI-PopBackTests";
+			productReference = FA586D9C248E7C07008D22B3 /* SwiftUI-PopBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA586DA6248E7C07008D22B3 /* SwiftUI-PopBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA586DB6248E7C07008D22B3 /* Build configuration list for PBXNativeTarget "SwiftUI-PopBackUITests" */;
+			buildPhases = (
+				FA586DA3248E7C07008D22B3 /* Sources */,
+				FA586DA4248E7C07008D22B3 /* Frameworks */,
+				FA586DA5248E7C07008D22B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA586DA9248E7C07008D22B3 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-PopBackUITests";
+			productName = "SwiftUI-PopBackUITests";
+			productReference = FA586DA7248E7C07008D22B3 /* SwiftUI-PopBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA586D7E248E7C02008D22B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "СomeOnSoftware";
+				TargetAttributes = {
+					FA586D85248E7C02008D22B3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FA586D9B248E7C07008D22B3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FA586D85248E7C02008D22B3;
+					};
+					FA586DA6248E7C07008D22B3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FA586D85248E7C02008D22B3;
+					};
+				};
+			};
+			buildConfigurationList = FA586D81248E7C02008D22B3 /* Build configuration list for PBXProject "SwiftUI-PopBack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA586D7D248E7C02008D22B3;
+			productRefGroup = FA586D87248E7C02008D22B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA586D85248E7C02008D22B3 /* SwiftUI-PopBack */,
+				FA586D9B248E7C07008D22B3 /* SwiftUI-PopBackTests */,
+				FA586DA6248E7C07008D22B3 /* SwiftUI-PopBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA586D84248E7C02008D22B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA586D96248E7C07008D22B3 /* LaunchScreen.storyboard in Resources */,
+				FA586D93248E7C07008D22B3 /* Preview Assets.xcassets in Resources */,
+				FA586D90248E7C07008D22B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA586D9A248E7C07008D22B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA586DA5248E7C07008D22B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA586D82248E7C02008D22B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA586D8A248E7C02008D22B3 /* AppDelegate.swift in Sources */,
+				FA586D8C248E7C02008D22B3 /* SceneDelegate.swift in Sources */,
+				FA586D8E248E7C02008D22B3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA586D98248E7C07008D22B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA586DA1248E7C07008D22B3 /* SwiftUI_PopBackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA586DA3248E7C07008D22B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA586DAC248E7C07008D22B3 /* SwiftUI_PopBackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA586D9E248E7C07008D22B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA586D85248E7C02008D22B3 /* SwiftUI-PopBack */;
+			targetProxy = FA586D9D248E7C07008D22B3 /* PBXContainerItemProxy */;
+		};
+		FA586DA9248E7C07008D22B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA586D85248E7C02008D22B3 /* SwiftUI-PopBack */;
+			targetProxy = FA586DA8248E7C07008D22B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA586D94248E7C07008D22B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA586D95248E7C07008D22B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA586DAE248E7C07008D22B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA586DAF248E7C07008D22B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA586DB1248E7C07008D22B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-PopBack/Preview Content\"";
+				DEVELOPMENT_TEAM = 57B786NS7J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-PopBack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comeonsoftware.SwiftUI-PopBack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA586DB2248E7C07008D22B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-PopBack/Preview Content\"";
+				DEVELOPMENT_TEAM = 57B786NS7J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-PopBack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comeonsoftware.SwiftUI-PopBack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA586DB4248E7C07008D22B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57B786NS7J;
+				INFOPLIST_FILE = "SwiftUI-PopBackTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comeonsoftware.SwiftUI-PopBackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-PopBack.app/SwiftUI-PopBack";
+			};
+			name = Debug;
+		};
+		FA586DB5248E7C07008D22B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57B786NS7J;
+				INFOPLIST_FILE = "SwiftUI-PopBackTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comeonsoftware.SwiftUI-PopBackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-PopBack.app/SwiftUI-PopBack";
+			};
+			name = Release;
+		};
+		FA586DB7248E7C07008D22B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57B786NS7J;
+				INFOPLIST_FILE = "SwiftUI-PopBackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comeonsoftware.SwiftUI-PopBackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-PopBack";
+			};
+			name = Debug;
+		};
+		FA586DB8248E7C07008D22B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57B786NS7J;
+				INFOPLIST_FILE = "SwiftUI-PopBackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comeonsoftware.SwiftUI-PopBackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-PopBack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA586D81248E7C02008D22B3 /* Build configuration list for PBXProject "SwiftUI-PopBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA586DAE248E7C07008D22B3 /* Debug */,
+				FA586DAF248E7C07008D22B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA586DB0248E7C07008D22B3 /* Build configuration list for PBXNativeTarget "SwiftUI-PopBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA586DB1248E7C07008D22B3 /* Debug */,
+				FA586DB2248E7C07008D22B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA586DB3248E7C07008D22B3 /* Build configuration list for PBXNativeTarget "SwiftUI-PopBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA586DB4248E7C07008D22B3 /* Debug */,
+				FA586DB5248E7C07008D22B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA586DB6248E7C07008D22B3 /* Build configuration list for PBXNativeTarget "SwiftUI-PopBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA586DB7248E7C07008D22B3 /* Debug */,
+				FA586DB8248E7C07008D22B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA586D7E248E7C02008D22B3 /* Project object */;
+}
